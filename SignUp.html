@@ -9,17 +9,28 @@
       @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
       @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Poppins:wght@200&display=swap");
     </style>
+
+<script>
+  function validateForm() {
+    let x = document.forms["signup"]["password"].value;
+    let y = document.forms["signup"]["confirmpassword"].value;
+    if (x != y) {
+    alert("Please make sure your password match.");
+    return false;
+    }
+  }
+  </script>
   </head>
   <body>
     <div class="container">
       <h1 class="josefin-sans-heading">Sign Up</h1>
-      <form action="#">
+      <form action="connection.php" method="POST" name="signup" onsubmit="return validateForm()">
         <div class="inputs poppins-extralight-text">
           <div class="input">
             <img src="./Images/person.png" alt="" />
 
             <div class="wave-group">
-              <input required="" type="text" class="input" />
+              <input required="" type="text" class="input" name ="name" />
               <span class="bar"></span>
               <label class="label">
                 <span class="label-char" style="--index: 0">N</span>
@@ -34,7 +45,7 @@
             <img src="./Images/email.png" alt="" />
 
             <div class="wave-group">
-              <input required="" type="text" class="input" />
+              <input required="" type="text" class="input"  name="email"/>
               <span class="bar"></span>
               <label class="label">
                 <span class="label-char" style="--index: 0">E</span>
@@ -49,7 +60,7 @@
           <div class="input">
             <img src="./Images/password.png" alt="" />
             <div class="wave-group">
-              <input required="" type="password" class="input" />
+              <input required="" type="password" class="input" name="password"/>
               <span class="bar"></span>
               <label class="label">
                 <span class="label-char" style="--index: 0">P</span>
@@ -67,7 +78,7 @@
           <div class="input">
             <img src="./Images/password.png" alt="" />
             <div class="wave-group">
-              <input required="" type="password" class="input" />
+              <input required="" type="password" class="input" name="confirmpassword"/>
               <span class="bar"></span>
               <label class="label">
                 <span class="label-char" style="--index: 0">C</span>
@@ -89,7 +100,7 @@
               </label>
             </div>
           </div>
-          <button class="btn poppins-extralight-text">Create Account</button>
+          <input type="submit" class="btn poppins-extralight-text" value="Create Account"></button>
         </div>
       </form>
     </div>
