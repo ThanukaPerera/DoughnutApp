@@ -13,7 +13,7 @@
   <body>
     <div class="container">
       <h1 class="josefin-sans-heading">Sign Up</h1>
-      <form action="#">
+      <form action="signin.php" method="POST" name="signinform">
         <div class="inputs poppins-extralight-text">
           <div class="input">
             <img src="./Images/person.png" alt="" />
@@ -51,7 +51,15 @@
               </label>
             </div>
           </div>
-          <button class="btn poppins-extralight-text">Sign Up</button>
+          <div class="text poppins-extralight-text">
+            <p>I don't have an account. <a href="SignUp.html">Sign Up</a></p>
+          </div>
+
+          <input
+            type="submit"
+            class="btn poppins-extralight-text"
+            value="Sign In"
+          />
         </div>
       </form>
     </div>

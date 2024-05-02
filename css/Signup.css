@@ -46,6 +46,12 @@ body {
 
 
 
+.text p {
+    text-align: center;
+}
+
+
+
 h1 {
     text-align: center;
     margin-top: 25px;
