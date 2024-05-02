@@ -1,11 +1,14 @@
 <?php
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_DATABASE', 'doughnutapp');
+$servername = 'localhost';
+$username = 'root';
+$db_password = ''; // Database password
+$database = 'doughnutapp';
 
-$conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 
+// Create connection
+$conn = new mysqli($servername, $username, $db_password, $database);
+
+// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }

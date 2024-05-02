@@ -1,25 +1,11 @@
 <?php
-$servername = 'localhost';
-$username = 'root';
-$db_password = ''; // Database password
-$database = 'doughnutapp';
-
+require('config.php');
 
 // Get user inputs
 $name = $_POST["name"];
 $email = $_POST["email"];
 $user_password = $_POST["password"]; // Rename to avoid conflict
 $confirm_password = $_POST["confirmpassword"];
-
-
-
-// Create connection
-$conn = new mysqli($servername, $username, $db_password, $database);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
 
 // Prepare SQL statement
 $sql = "INSERT INTO Customer (name, email, password) VALUES (?, ?, ?)";
