@@ -18,14 +18,16 @@ $stmt->bind_param("sss", $name, $email, $user_password);
 $duplicate = mysqli_query($conn, "SELECT * FROM Customer WHERE email='$email'");
 
 if (mysqli_num_rows($duplicate) > 0) {
+
     echo "<script>alert('Your email is already registered')</script>";
-    // Redirect to another HTML page
-    header("Location: registeredSuccessfully.html");
+
     exit(); // Stop further execution of PHP script
 }
 
 // Execute statement
 else if ($stmt->execute()) {
+    // Redirect to another HTML page
+    header("Location: registeredSuccessfully.html");
     echo "<script>alert('Your account has been created successfully')</script>";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
