@@ -1,0 +1,93 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer {
+    height: auto;
+    background-color: #5c2111;
+    width: 100%;
+    font-family: "Montserrat", fantasy;
+    padding-top: 6.51vw;
+    float: right;
+    padding-bottom: 6vw;
+}
+
+.footer p {
+    color: #FFFFFF;
+}
+
+.footer c img {
+    background-color: #FFFFFF;
+    width: 5.53vw;
+    height: 5.2vw;
+    border-radius: 2.6vw;
+    padding-bottom: 0.32vw;
+    margin-left: 3.9vw;
+}
+
+.footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer td {
+    text-align: center;
+    padding-left: 3.9vw;
+}
+
+.logo img {
+    margin-right: -3.25vw;
+
+}
+
+.instagram img {
+    width: 1.43vw;
+    padding-top: 0.195vw;
+    padding-right: 0.195vw;
+    padding-left: 0.195vw;
+    padding-bottom: 0.195vw;
+
+
+}
+
+.instagram td {
+    padding: 0.13vw;
+    background-color: #fefdfd;
+    border-radius: 1.62vw;
+}
+
+.botnav table {
+    margin-left: 32%;
+    margin-right: 30%;
+    background-color: #5c2111;
+}
+
+.botnav a {
+    float: center;
+    color: #fefdfd;
+    ;
+    text-align: center;
+    padding: 0.91vw;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: "Montserrat", fantasy;
+    border-radius: 28px;
+    width: 108px;
+}
+
+.botnav a:hover {
+    background-color: #F9E9E5;
+    color: #5c2111;
+
+}
+
+.footer hr {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 0.65vw;
+    color: #fefdfd;
+    ;
+}

@@ -1,10 +1,3 @@
-<?php
-require_once 'config.php';
-
-$sql = "SELECT * FROM product";
-$all_product = $conn->query($sql);
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,18 +5,22 @@ $all_product = $conn->query($sql);
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mome</title>
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@200;300;400&display=swap');
+  </style>
 </head>
 
 <body>
   <div class="navbar">
     <div class="logo-container">
-      <a href="index.html"><img src="./Images/donut_logo.png" alt="" class="logo" /></a>
+      <a href="index.php"><img src="./Images/donut_logo.png" alt="" class="logo" /></a>
     </div>
-    <div class="menu">
-      <a href="index.html">Home</a>
+    <div class="menu heading">
+      <a href="index.php">Home</a>
       <a href="ourstory.html">Our Story</a>
-      <a href="ourproducts.html">Our Products</a>
+      <a href="products.php">Our Products</a>
       <a href="contact.html">Contact</a>
     </div>
     <div class="icon">
@@ -32,11 +29,11 @@ $all_product = $conn->query($sql);
   </div>
   <div class="hero-section">
     <div class="hero-text">
-      <h1>
+      <h1 class="heading">
         Discover Our Delicious <br />
         Donuts Today!
       </h1>
-      <p>
+      <p class="text">
         Our donuts are perfect for any occasion, whether you're grabbing<br />
         a quick breakfast on the go or ordering a dozen<br />
         for a special event.
@@ -48,39 +45,10 @@ $all_product = $conn->query($sql);
   </div>
 
 
-
-
-  <?php
-  while ($row = $all_product->fetch_assoc()) {
-  ?>
-    <div class="products">
-      <div class="card">
-        <div class="image">
-          <?php
-          // Display product image
-          echo '<img src="data:image/jpeg;base64,' . base64_encode($row["product_image"]) . '" alt="">';
-          ?>
-        </div>
-        <div class="caption">
-          <!-- Display other product details -->
-          <p class="rate">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </p>
-          <p class="product_name"><?php echo $row["product_name"]; ?></p>
-          <p class="price"><b>$<?php echo $row["price"]; ?></b></p>
-        </div>
-        <button class="add" data-id="<?php echo $row["product_id"]; ?>">Add to cart</button>
-      </div>
-    </div>
-  <?php
-  }
-  ?>
-
-
+  
 </body>
 
+<?php
+require_once 'footer.php';
+?>
 </html>
