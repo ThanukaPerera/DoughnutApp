@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="./css/cart.css" />
+    <script>
+      let x = 1;
+      function increament() {
+        document.getElementById("num").innerHTML = ++x;
+      }
+      function decreament() {
+        if (x > 1) {
+          document.getElementById("num").innerHTML = --x;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="shoppingcart">
+      <h1>Shopping Cart</h1>
+      <div class="cart-card">
+        <div class="amountSelector">
+          <button onclick="decreament()" class="btn">-</button>
+          <p id="num" style="display: inline">1</p>
+          <button onclick="increament()" class="btn">+</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
