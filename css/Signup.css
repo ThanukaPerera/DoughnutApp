@@ -31,7 +31,9 @@ body {
     display: flex;
     flex-direction: column;
     width: 30rem;
-    background-color: rgba(255, 255, 255, 0.479)
+    background-color: rgba(230, 220, 220, 0.337);
+    backdrop-filter: blur(10px);
+
 }
 
 .container * {
@@ -42,6 +44,12 @@ body {
     display: flex;
 
     align-items: center;
+}
+
+
+
+.text p {
+    text-align: center;
 }
 
 
@@ -81,7 +89,7 @@ h1 {
     transition: 454ms;
     padding: 10px 30px;
     transform: translateY(-0px);
-    background-color: #fff;
+    background-color: #e6cfca;
     color: #5C2111;
     border: solid 2px #5C2111;
 }
@@ -108,9 +116,9 @@ h1 {
 }
 
 .wave-group .label {
-    color: #fff;
+    color: #000000;
     font-size: 15px;
-    font-weight: normal;
+    font-weight: 300;
     position: absolute;
     pointer-events: none;
     left: -5px;
