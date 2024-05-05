@@ -27,7 +27,7 @@ if (mysqli_num_rows($duplicate) > 0) {
 // Execute statement
 else if ($stmt->execute()) {
     // Redirect to another HTML page
-    header("Location: registeredSuccessfully.html");
+    header("Location: SignIn.html");
     echo "<script>alert('Your account has been created successfully')</script>";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;

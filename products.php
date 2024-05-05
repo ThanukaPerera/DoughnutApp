@@ -25,10 +25,10 @@ $rows = round(($count + 2) / 3);
 <body>
 
     <?php
-        require_once 'navbar.php';
+    require_once 'navbar.php';
     ?>
 
-    <div class="products heading" >
+    <div class="products heading">
         <h1>Our Products</h1>
     </div>
     <?php
@@ -60,12 +60,13 @@ $rows = round(($count + 2) / 3);
                 ?>
             </div>
     <?php
-        } else {
-            echo "<script>alert('No records found');</script>";
-        }
+            // } else {
+            //     echo "<script>alert('No records found');</script>";
+            // }
 
-        $start += 3;
-        $rows -= 1;
+            $start += 3;
+            $rows -= 1;
+        }
     }
     require_once 'footer.php';
     ?>

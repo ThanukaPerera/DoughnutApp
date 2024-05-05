@@ -82,7 +82,7 @@ $rows = round(($count + 2) / 3);
         </div>
         <?php
         $start = 0;
-        while ($rows > 3) {
+        while ($rows > 8) {
           $sql = "SELECT * FROM doughnut LIMIT $start,3";
           $result = $conn->query($sql);
           if ($result->num_rows > 0) {

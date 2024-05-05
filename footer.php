@@ -9,7 +9,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@200;300;400&display=swap');
   </style>
-  <link rel="stylesheet" href="./css/footer1.css">
+  <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 <body>
