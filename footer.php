@@ -8,7 +8,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
   </style>
-  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/footer1.css">
 </head>
 
 <body>
@@ -76,8 +76,7 @@
       <hr>
     </div>
   </div>
-  </div>
-  </div>
+
 </body>
 
 </html>
