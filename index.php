@@ -14,19 +14,28 @@
 
 <body>
   <div class="navbar">
+
+
     <div class="logo-container">
       <a href="index.php"><img src="./Images/donut_logo.png" alt="" class="logo" /></a>
     </div>
+
+
     <div class="menu heading">
       <a href="index.php">Home</a>
       <a href="ourstory.html">Our Story</a>
       <a href="products.php">Our Products</a>
       <a href="contact.html">Contact</a>
     </div>
+
+
     <div class="icon">
       <a href="SignIn.html"><img src="./Images/Icons/user.png" alt="Sign In" class="icon" /></a>
     </div>
+
+
   </div>
+  
   <div class="hero-section">
     <div class="hero-text">
       <h1 class="heading">

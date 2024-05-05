@@ -71,8 +71,9 @@
       <div class="heading"><a href="story.php">Our Story</a></div>
       <div class="heading"><a href="products.php">Our Products</a></div>
       <div class="heading"><a href="contact.php">Contact</a></div>
-      <hr>
+      
     </div>
+    <hr>
   </div>
 
 </body>

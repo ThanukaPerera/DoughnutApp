@@ -63,9 +63,9 @@
 
 }
 
-.footer .logo {
+.footer .topfooter .logo {
     display: flex;
-    margin-right: 10px;
+    margin: 0px 10px 0px 0px;
 
 }
 
@@ -116,14 +116,13 @@
 .botnav a {
     float: center;
     color: #fefdfd;
-    ;
     text-align: center;
-    padding: 0.91vw;
+    padding: 1vw;
     font-size: 1rem;
     text-decoration: none;
-
     border-radius: 28px;
     width: 108px;
+    margin:0px 15px;
 }
 
 .botnav a:hover {
@@ -135,7 +134,7 @@
 .footer hr {
     margin-left: 4%;
     margin-right: 4%;
-    margin-top: 0.65vw;
+    margin-top: 1.2vw;
     color: #fefdfd;
 
 }

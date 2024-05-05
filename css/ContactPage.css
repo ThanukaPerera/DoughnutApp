@@ -1,0 +1,161 @@
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color: #fefdfd;
+    width: 100%;
+}
+
+.heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  
+.MainContainer{
+    margin: 1.57vw;
+    
+}
+h1{
+    color: #3E1C12;
+    font-family: itim;
+}
+.image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.78vw;
+}
+.overlay{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fefdfd;
+    opacity: 50%;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    top:3px;
+    transition: .5s ease;
+    
+}
+.container01{
+    position: relative;
+    
+}
+.container01:hover .overlay {
+    bottom: 0;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+.textincontact {
+    color: #3E1C12;
+    font-size: 70px;
+    font-family: itim;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.container{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form-container{
+    background-color:#fefdfd;
+    margin: 3.66vw;
+    width: 39.27vw;
+    height: 39.27vw;
+    padding: 2.35vw;
+    border: 0.15vw solid #7a4b3d;
+    border-radius: 40px;
+}
+form{
+    display: table;
+}
+p.FormRow{
+    display: table-row;
+    margin: 20px;
+    color: #7a4b3d;
+    font-family: "Montserrat", fantasy;
+}
+label,input{
+    display: table-cell;
+}
+input,textarea{
+    border-radius: 0.73vw;
+    border-color: #3E1C12;
+    border-width: 0.07vw;
+}
+.btn{
+    border-radius: 2.19vw;
+    width: 7.32vw;
+    height: 2.56vw;
+    font-family: "Montserrat", fantasy;
+    font-size: 1rem; 
+    color: #7a4b3d;
+    background-color: #F9E9E5;
+    border-color: #7a4b3d;
+    cursor: pointer; 
+    margin-top: 1.46vw;
+    margin-left: 1.46vw;
+    align-self: center;
+}
+  
+.btn:hover {
+    background-color:#3E1C12;
+    color:#fefdfd ;
+  }
+    
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.locationincontact{
+    margin: 3.66vw 3.66vw 0 0;
+    width: 36.6vw;
+    height: 39.27vw;
+    background-color: #7a4b3d;
+    padding: 2.19vw;
+    font-family: "Montserrat", fantasy;
+    font-size: 18px;
+    color: #fefdfd;
+    border-radius: 2.92vw;
+}
+#add::before{
+    margin-top: 10px;
+    padding: 10px;
+    content: url(location.svg);
+}
+#phn::before{
+    margin-top: 10px;
+    padding: 10px;
+    content: url(call.svg);
+}
+#mail::before{
+    margin-top: 10px;
+    padding: 10px;
+    content: url(email.svg);
+}
+#mail a{
+    color:#fefdfd ;
+}
+.map{
+    width: 100%;
+    height: 17vw;
+    border-radius: 1.23vw;
+}
