@@ -61,7 +61,11 @@ body{
 
 .navbar .topnav .logo .logo-container{
     display: flex;
-    background-color: black;
+}
+
+.navbar .topnav .logo .logo-container .shopname{
+    color:#5C2111;
+    margin-left: 1vw;
 }
 .navbar .logo-container img {
     animation-name: logorotation;

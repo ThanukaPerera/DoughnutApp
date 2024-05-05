@@ -60,12 +60,13 @@ $rows = round(($count + 2) / 3);
                 ?>
             </div>
     <?php
-        } else {
-            echo "<script>alert('No records found');</script>";
-        }
+            // } else {
+            //     echo "<script>alert('No records found');</script>";
+            // }
 
-        $start += 3;
-        $rows -= 1;
+            $start += 3;
+            $rows -= 1;
+        }
     }
     require_once 'footer.php';
     ?>
