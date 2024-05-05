@@ -24,6 +24,10 @@ $rows = round(($count + 2) / 3);
 
 <body>
 
+    <?php
+        require_once 'navbar.php';
+    ?>
+
     <div class="products heading" >
         <h1>Our Products</h1>
     </div>
@@ -63,6 +67,7 @@ $rows = round(($count + 2) / 3);
         $start += 3;
         $rows -= 1;
     }
+    require_once 'footer.php';
     ?>
 
 </body>

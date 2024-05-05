@@ -1,0 +1,54 @@
+body{
+    background-color: #fefdfd;
+
+}
+
+.heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.MainContainer{
+    display: flex;
+    margin:5vw;
+    
+}
+.container1{
+    width:50%;
+    height: auto;
+
+}
+.container2{
+    display: flex;
+    margin: auto;
+    height: auto;
+}
+.img1{
+
+    padding-top: 1.46vw;
+    padding-left: 1.46vw;
+    width: 36.6vw;
+    height: auto;
+    border-radius:2.92vw;
+}
+
+.info{
+    
+    color: #3E1C12;
+    text-align: justify;
+    padding:0 20px 20px 20px;
+}
+.heading{
+    
+    
+    margin:50px 0px;
+    color: #3E1C12;
+}
