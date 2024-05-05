@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@200;300;400&display=swap');
   </style>
   <link rel="stylesheet" href="./css/footer1.css">
 </head>
@@ -23,14 +24,14 @@
 
 
       <div class="contactus footercolumn">
-        <h4><a>Contact Us</a></h4>
-        <div class="email">
+        <h4 class="heading"><a>Contact Us</a></h4>
+        <div class="email text">
           <div class="logo">
             <img src="./Images/footer/email.svg">
           </div>
           <p><a href="https://www.youtube.com/">info@doughnuts.com</a></p>
         </div>
-        <div class="phone">
+        <div class="phone text">
           <div class="logo">
             <img src="./Images/footer/call.svg">
           </div>
@@ -40,21 +41,22 @@
 
 
       <div class="visitouroffice footercolumn">
-        <h4><a>Visit our Office</a></h4>
-        <div class="location">
+        <h4 class="heading"><a>Visit our Office</a></h4>
+        <div class="location text">
           <div class="logo">
             <img src="./Images/footer/location.svg">
           </div>
           <p><a>846E, St Rita's avenue, Thumpeliya, Ja-Ela</a></p>
+          
         </div>
       </div>
 
 
       <div class="followus footercolumn">
-        <h4><a>Follow Us</a></h4>
+        <h4 class="heading"><a>Follow Us</a></h4>
         <div class="socialmedia">
           <div class="socialmediaicons">
-            <div class="icon"><img src="./Images/footer/instagram.svg"></div>
+            <div class="icon "><img src="./Images/footer/instagram.svg"></div>
             <div class="icon"><img src="./Images/footer/twitter.svg"></div>
             <div class="icon"><img src="./Images/footer/fb.svg"></div>
           </div>
@@ -66,13 +68,9 @@
     <!-- sdasd -->
 
     <div class="botnav">
-      <table>
-        <tr>
-          <td><a href="#">Our Story</a></td>
-          <td><a href="#">Our Products</a></td>
-          <td><a href="#">Contact</a></td>
-        </tr>
-      </table>
+      <div class="heading"><a href="story.php">Our Story</a></div>
+      <div class="heading"><a href="products.php">Our Products</a></div>
+      <div class="heading"><a href="contact.php">Contact</a></div>
       <hr>
     </div>
   </div>

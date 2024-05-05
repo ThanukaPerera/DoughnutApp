@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.navbar {
+    float: right;
+    background-color: #fefdfd;
+}
+
+
+.topnav table {
+    margin-right: 0;
+    background-color: #fefdfd;
+}
+
+
+
+.topnav a {
+    float: right;
+    color: #7a4b3d;
+    text-align: center;
+    padding: 14px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 28px;
+    width: 108px;
+}
+
+
+.topnav a:hover {
+    background-color: #F9E9E5;
+}
+
+
+.search {
+    border-radius: 28px;
+    background-color: #d6d6d6;
+    padding: 1px;
+    width: 100%;
+    float: right;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+.search input[type="text"] {
+    padding: 13px;
+    font-size: 13px;
+    width: calc(100% - 80px);
+    color: #444444;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+
+.search img {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: -8px;
+}
+
+
+.icon {
+    float: right;
+    margin-bottom: 7px;
+    align-items: center;
+}
+
+
+.icon img {
+    width: 20px;
+    align-items: center;
+}
+
+
+.icon b {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 28px;
+}
+
+
+.icon a {
+    padding: 8px;
+    border-radius: 28px;
+}
+
+
+.icon a:hover {
+    background-color: #F9E9E5;
+}
+
+
+.icon b:hover {
+    background-color: #F9E9E5;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        float: none;
+        width: 100%;
+    }
+
+    .search input[type="text"] {
+        width: calc(100% - 60px);
+
+    }
+
+}
