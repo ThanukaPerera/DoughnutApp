@@ -4,10 +4,75 @@
 }
 
 .footer {
+    background-color: #5c2111;
+    width: 100%;
+    margin-bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.topfooter {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footercolumn {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footerlogo img {
+    background-color: #FFFFFF;
+    width: 5.53vw;
+    height: auto;
+    border-radius: 2.6vw;
+    margin-left: 3.9vw;
+}
+
+.footer .topfooter .email,
+.footer .topfooter .phone,
+.footer .topfooter .location,
+.footer .topfooter .socialmedia {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer .logo {
+    display: flex;
+
+}
+
+.footer .socialmediaicons {
+    display: flex;
+
+}
+
+.footer .socialmedia .icon {
+    margin: 10px 10px 0px 0px;
+    background-color: #fefdfd;
+    border-radius: 40%;
+    max-width: fit-content;
+    height: auto;
+
+}
+
+.footer .socialmediaicons .icon img {
+    flex-basis: 33.33%;
+    
+    
+}
+
+
+
+/* .footer {
     height: auto;
     background-color: #5c2111;
     width: 100%;
-    font-family: "Montserrat", fantasy;
+    
     padding-top: 6.51vw;
     float: right;
     padding-bottom: 6vw;
@@ -90,4 +155,4 @@
     margin-top: 0.65vw;
     color: #fefdfd;
     ;
-}
+} */

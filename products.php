@@ -63,6 +63,7 @@ $rows = round(($count + 2) / 3);
         $start += 3;
         $rows -= 1;
     }
+    require_once 'footer.php';
     ?>
 
 </body>
