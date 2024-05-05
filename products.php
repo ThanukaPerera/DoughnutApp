@@ -25,10 +25,10 @@ $rows = round(($count + 2) / 3);
 <body>
 
     <?php
-        require_once 'navbar.php';
+    require_once 'navbar.php';
     ?>
 
-    <div class="products heading" >
+    <div class="products heading">
         <h1>Our Products</h1>
     </div>
     <?php

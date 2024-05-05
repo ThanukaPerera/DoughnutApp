@@ -59,6 +59,10 @@ body{
 
 } */
 
+.navbar .topnav .logo .logo-container{
+    display: flex;
+    background-color: black;
+}
 .navbar .logo-container img {
     animation-name: logorotation;
     animation-duration: 4s;

@@ -18,7 +18,8 @@
         <div class="topnav">
             <div class="logo">
                 <div class="logo-container">
-                    <a href="index.php"><img src="./Images/donut_logo.png" alt="" class="logo" /></a>
+                    <a href="Home.php"><img src="./Images/donut_logo.png" alt="" class="logo" /></a>
+                    <p class="heading">Sprinkle Heaven</p>
                 </div>
             </div>
             <div class="menu heading">
