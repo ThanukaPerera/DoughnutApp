@@ -4,18 +4,33 @@ body{
 }
 
 
+.heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 
 /*Navigation bar*/
-.navbar {
+.navbar .topnav {
     display: flex;
-    border: 1px solid black;
     border-radius: 30px;
-    margin: 10px;
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     width: 3rem;
     height: auto;
+    flex-basis: 20%;
+    margin-left: 20px;
 }
 
 /* Logo animation*/
@@ -55,10 +70,13 @@ body{
 /* Logo animation*/
 .menu {
     margin: auto;
+    display: flex;
+    margin: auto;
 }
 
 .menu a {
     padding: 1rem 2rem;
+    margin:10px 30px;
     color: #5C2111;
     text-decoration: none;
 }
@@ -75,3 +93,62 @@ body{
 }
 
 /*Navigation bar*/
+
+/*Menu*/
+.navbar {
+    background-color: #fefdfd;
+}
+
+
+
+
+
+.topnav a {
+    
+    color: #7a4b3d;
+    text-align: center;
+    padding: 14px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 28px;
+    
+}
+
+
+.topnav a:hover {
+    background-color: #F9E9E5;
+}
+/*Menu*/
+
+
+
+
+
+
+
+
+
+/*Icons*/
+.icon {
+    flex-basis: 20%;
+    float: right;
+    margin-bottom: 7px;
+    align-items: center;
+}
+
+
+.icon img {
+    width: 20px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.icon :hover {
+    background-color: #F9E9E5;
+}
