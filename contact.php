@@ -35,25 +35,25 @@
             <h1 class="heading">Connect with Us</h1>
             <p class="FormRow">
               <label for="name">Name*:</label>
-              <input type="text" id="name"><br>
+              <input type="text" id="name" name="name"><br>
               <span id="name-error" class="error-message"></span><br>
             </p>
             <p class="FormRow">
-              <label for="email">Email*:</label>
+              <label for="email" name="email">Email*:</label>
               <input type="text" id="email"><br>
               <span id="email-error" class="error-message"></span><br>
             </p>
             <p class="FormRow">
               <label for="phone">Phone:</label>
-              <input type="tel" id="phone"><br><br>
+              <input type="tel" id="phone" name="phone"><br><br>
             </p>
             <p class="FormRow">
               <label for="message">Message:</label>
-              <textarea id="message" cols="25" rows="5"></textarea><br><br>
+              <textarea id="message" cols="25" rows="5" name="massage"></textarea><br><br>
             </p>
 
             
-            <input type="reset" class="btn text" onclick="myFunction()" value="Reset">
+            <input type="reset" class="btn text"  value="Reset">
             <input type="submit" value="Submit" id="submit" class="btn text">
             
           </form>

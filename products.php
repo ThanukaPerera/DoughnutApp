@@ -6,7 +6,7 @@ $all_product = $conn->query($sql);
 $row = $all_product->fetch_assoc();
 $count = $row["idCount"];
 
-$rows = round(($count + 2) / 3);
+$rows = round(($count ) / 3);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -68,6 +68,8 @@ $rows = round(($count + 2) / 3);
             $rows -= 1;
         }
     }
+    ?>
+    <?php
     require_once 'footer.php';
     ?>
 
