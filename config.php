@@ -1,7 +1,7 @@
 <?php
 $servername = 'localhost';
 $username = 'root';
-$db_password = ''; // Database password
+$db_password = '2002'; // Database password
 $database = 'doughnutapp';
 
 
