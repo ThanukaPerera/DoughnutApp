@@ -18,12 +18,12 @@
         <div class="topnav">
             <div class="logo">
                 <div class="logo-container">
-                    <a href="Home.php"><img src="./Images/donut_logo.png" alt="" class="logo" /></a>
+                    <a href="index.php"><img src="./Images/donut_logo.png" alt="" class="logo" /></a>
                     <h2 class="heading shopname">Sprinkle Heaven</h2>
                 </div>
             </div>
             <div class="menu heading">
-                <a href="Home.php">Home</a>
+                <a href="index.php">Home</a>
                 <a href="story.php">Our Story</a>
                 <a href="products.php">Our Products</a>
                 <a href="contact.php">Contact</a>
