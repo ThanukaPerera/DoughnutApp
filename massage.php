@@ -6,11 +6,11 @@ $email = $_POST["email"];
 $phone = $_POST["phone"]; 
 $massage = $_POST["massage"];
 
-$sql = "INSERT INTO massage (name, email, phone, massage) VALUES (?, ?, ?)";
+$sql = "INSERT INTO massage (name, email, phone, massage) VALUES (?, ?, ?, ?)";
 $stmt = $conn->prepare($sql);
 
 
-$stmt->bind_param("sss", $name, $email, $user_password);
+$stmt->bind_param("ssss", $name, $email, $phone, $massage);
 
 
 if ($stmt->execute()) {

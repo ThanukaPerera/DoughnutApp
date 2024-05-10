@@ -31,7 +31,7 @@
       </div>
       <div class="container">
         <div class="form-container">
-          <form id="myForm" onsubmit="validateForm(event)" action="massage.php" method="POST" class="text">
+          <form id="myForm"  action="massage.php" method="POST" class="text">
             <h1 class="heading">Connect with Us</h1>
             <p class="FormRow">
               <label for="name">Name*:</label>
@@ -39,8 +39,8 @@
               <span id="name-error" class="error-message"></span><br>
             </p>
             <p class="FormRow">
-              <label for="email" name="email">Email*:</label>
-              <input type="text" id="email"><br>
+              <label for="email" >Email*:</label>
+              <input type="text" id="email" name="email"><br>
               <span id="email-error" class="error-message"></span><br>
             </p>
             <p class="FormRow">
